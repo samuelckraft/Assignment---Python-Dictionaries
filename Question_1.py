@@ -9,7 +9,7 @@ restaurant_menu["Beverages"] = {"Beer": 5.99, "Wine": 7.99, "Whiskey": 12.99}
 
 restaurant_menu["Main Course"]["Steak"] = 17.99
 
-restaurant_menu["Starters"].popitem()
+del restaurant_menu["Starters"]["Bruschetta"]
 
 
 print(restaurant_menu)
